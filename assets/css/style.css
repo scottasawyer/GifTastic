@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    height: 95vh;
+    background: grey;
+    color: white;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.header {
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 4;
+    overflow-x: hidden;
+    justify-content: space-evenly;
+}
+
+.rating, .title {
+    justify-content: center;
+    font-weight: bold;
+}
+
+
