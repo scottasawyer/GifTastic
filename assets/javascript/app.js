@@ -81,13 +81,14 @@ $(function () {
     }
 
     //click event for form submission
-    $('.submit').on('click', function () {
+    $('.submit').on('click', function (event) {
+        event.preventDefault();
         var input = $('.user-input').val().trim()
 
-        if (!input){
+        if (!input) {
             alert("Submitting nothing is bad form!");
         }
-        else{
+        else {
         console.log(input);
         form.reset()
         topics.push(input);
