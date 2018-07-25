@@ -83,6 +83,7 @@ $(function () {
     //click event for form submission
     $('.submit').on('click', function () {
         var input = $('.user-input').val().trim()
+        console.log(input);
         form.reset()
         topics.push(input);
         createButtons();

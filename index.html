@@ -17,15 +17,26 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-4 text-center">
-                <span class="animated slidInDown text-center"><h1>gifTastic!</h1></span>
-                <p><h3>Gifs of Characters from Movies!</h3></p>
+                <span class="animated slidInDown text-center">
+                    <h1>gifTastic!</h1>
+                </span>
+                <p>
+                    <h3>Gifs of Characters from Movies!</h3>
+                </p>
             </div>
             <div class="col-sm-8 header">
-                <form>
-                <input class="form-control form-control-lg user-input" type="text" placeholder="Pick an character! Any character!">
-                <small id="emailHelp" class="form-text  text-white">Seriously, any character. No judgements here!</small>
-                <input class="submit btn btn-primary btn-sm" type="submit" value="Add it to the list!">
+                <form id="form">
+                    <label for="user-input">Pick an character! Any character!</label>
+                    <input type="text" class="user-input">
+                    <input class="submit btn-primary rounded" type="submit" value="Submit">
                 </form>
+
+                <!-- 
+                <form>
+                <input class="user-input form-control form-control-lg" type="text" placeholder="Pick an character! Any character!">
+                <small id="emailHelp" class="form-text submit text-white">Seriously, any character. No judgements here!</small>
+                <input class="submit btn btn-primary btn-sm" type="submit" value="Add it to the list!">
+                </form> -->
             </div>
         </div>
         <div class="row">
