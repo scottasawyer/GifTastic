@@ -83,12 +83,18 @@ $(function () {
     //click event for form submission
     $('.submit').on('click', function () {
         var input = $('.user-input').val().trim()
+
+        if (input === ""){
+            alert("Submitting blank forms is bad form!");
+        }
+        else{
         console.log(input);
         form.reset()
         topics.push(input);
         createButtons();
 
         return false
+        }
     })
 
     createButtons();
