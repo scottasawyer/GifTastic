@@ -9,6 +9,9 @@ Everyone loves a good gif, so 10 gifs is like 10x as good!
 * Gifs will be still by default, you can re-animate them by clicking on them
 * Clicking on them again will return them to their still state
 
+## Deployment
+
+You can see the project live here: https://scottasawyer.github.io/GifTastic/
 
 ## Installation
 1. `git clone` the repo.
